@@ -91,8 +91,6 @@ class FazendaSPSpider(scrapy.Spider):
 
         os.remove('captcha.png')
 
-        print(result)
-
         self.driver.find_elements_by_name("ctl00$cphContent$CaptchaControl1")[0].send_keys(result)
 
         self.driver.execute_script("document.getElementById('ctl00_cphContent_txtEmail').value = '129.170.647-06'")
