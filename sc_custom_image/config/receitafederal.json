@@ -1,0 +1,30 @@
+{
+  "scripts": {
+      "newProcesses": "",
+      "processDetails": ""
+    },
+
+  "captchaInfo": {
+    "captcha_service": "CLIENT_KEY_CAPTCHAS_IO",
+    "websiteKey": "",
+     "type": "",
+    "imageCSS": "",
+    "imageField": "",
+    "button": ""
+  },
+
+  "urls": {
+    "entry_url": "",
+    "entry_url_second": "",
+    "processUrl": "",
+    "referer": "",
+    "origin": ""
+  },
+
+  "informations": {
+    "court": "",
+    "uf": "",
+    "code": ""
+  }
+
+}

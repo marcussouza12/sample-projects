@@ -88,3 +88,30 @@ ROBOTSTXT_OBEY = True
 #HTTPCACHE_DIR = 'httpcache'
 #HTTPCACHE_IGNORE_HTTP_CODES = []
 #HTTPCACHE_STORAGE = 'scrapy.extensions.httpcache.FilesystemCacheStorage'
+
+# CHROME_PATH = '../chromedriver'
+CHROME_PATH = '/Users/marcussouza/Downloads/chromedriver'
+# CHROME_PATH = '/path/to/chromedriver'
+# CHROME_PATH = '/usr/bin/chromedriver'
+FIREFOX_PATH = '/Users/marcussouza/Downloads/geckodriver'
+
+# ENV = 'http://localhost:8080'
+ENV = 'https://certification.audiflix.io'
+
+CLIENT_KEY_API_MONSTER = "a4cee99b586218e3908effc7338665dd"
+CLIENT_KEY_2_CAPTCHA = "4ae6200073787cd534614f7fc4fb645c"
+CLIENT_KEY_CAPTCHAS_IO = "0186db8a-61f3f83b0f1fd4.43701621"
+
+CERTIFICATION_BUCKET = "inove4u-upload-do"
+
+AWS_SECRET_KEY = "VNBcu2vJvQ4xzwKWIxGN/oZGv7cGsst+8b250k4I"
+AWS_ACCESS_KEY = "AKIA265227RWQGSHSRRT"
+AWS_REGION = "us-east-2"
+
+LOG_LEVEL = 'ERROR'  # to only display errors
+LOG_FORMAT = '%(levelname)s: %(message)s'
+
+HEADER_PROCESS_API = {
+    "x-api-key": "0381c1d624ff5a06dc4ff63aaa14ab11",
+    "x-user": "marcussouza@id.uff.br"
+}

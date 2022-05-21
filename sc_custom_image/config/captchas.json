@@ -1,0 +1,16 @@
+{
+    "CLIENT_KEY_CAPTCHAS_IO": {
+        "urlIn": "https://api.captchas.io/in.php",
+        "urlRes": "https://api.captchas.io/res.php"
+    },
+
+    "CLIENT_KEY_2_CAPTCHA": {
+        "urlIn": "https://2captcha.com/in.php",
+        "urlRes": "https://2captcha.com/res.php"
+    },
+
+    "CLIENT_KEY_API_MONSTER": {
+        "urlIn": "",
+        "urlRes": ""
+    }
+}
